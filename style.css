@@ -1,0 +1,114 @@
+html{
+	margin:0;
+	padding:0;
+	background: url(image/background.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	/*border: 1px solid red;*/
+}
+	
+
+.navbar{
+	background-color: #FFE4C4;
+	font-family: 'Indie Flower', cursive;
+	padding: 0px;
+}
+
+.navbar-brand{
+	padding: 0px;
+	margin-left: 6px;
+}
+
+h1{
+	font-family: 'Cedarville Cursive', cursive;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 60px;
+
+}
+.caroussel{
+	margin-bottom: 90px;
+	border: px solid red;
+}
+
+.carousselTitle{
+	font-family: 'Cedarville Cursive', cursive;
+	margin-top: 90px;
+	text-align: center;
+
+}
+
+.intro{
+	font-family: 'Cedarville Cursive', cursive;
+	margin-bottom: 15px;
+
+}
+
+h3{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 30px;
+	text-align: center;
+	
+}
+
+p{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+.suite{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 50px;
+	border: px solid blue;
+}
+
+footer{
+	text-align: center;
+	background-color: #FFE4C4;
+	position: absolute;
+	width: 100%;
+	margin-top: 80px;
+}
+
+.copyright{
+	margin: 0px;
+}
+
+.card-title{
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 30px;
+
+}
+
+.btn{
+	font-family: 'Indie Flower', cursive;
+	background-color: #FFE4C4;
+	color: black;
+}
+
+.card{
+	/*margin: 5px;*/
+	display: flex;
+	align-items: center;
+	padding: 0px;
+}
+
+.introduction-premières{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.card-img-top {
+	/*width: 60%*/
+	height: 190px;
+	width: auto !important;
+	padding-top: 5px;
+}
+
+.card-body{
+	padding: 10px;
+}
