@@ -107,8 +107,32 @@ footer{
 	height: 190px;
 	width: auto !important;
 	padding-top: 5px;
+	
 }
 
 .card-body{
 	padding: 10px;
+}
+
+.image_dents {
+	height: 600px;
+	width: 470px;
+
+}
+
+.image_modale{
+
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.texte_modale{
+	margin-top: 30px;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+.modal-title{
+	font-family: 'Cedarville Cursive', cursive;
 }
