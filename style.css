@@ -4,7 +4,7 @@ body{
 	background: url(image/background.jpg) no-repeat center fixed; 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	/*background-size: cover; /* version standardisée */
-	background-image: url(images/rose3.jpg);
+	background-image: url(images/rose2.svg);
 	/*background-repeat: no-repeat ; /*pas de répition de l'image*/
  	background-attachment: fixed ;
 }
@@ -12,6 +12,7 @@ body{
 
 .navbar{
 	background-color: #FFE4C4;
+	/*background-image: url(images/s-l300.jpg);*/
 	font-family: 'Indie Flower', cursive;
 	padding: 0px;
 }
@@ -97,6 +98,7 @@ footer{
 	display: flex;
 	align-items: center;
 	padding: 0px;
+	background-image: url(images/rose1.jpg);
 }
 
 .introduction-premières{
