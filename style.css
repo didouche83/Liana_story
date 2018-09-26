@@ -91,6 +91,7 @@ footer{
 	font-family: 'Indie Flower', cursive;
 	background-color: #FFE4C4;
 	color: black;
+	border:1px solid black;
 }
 
 .card{
@@ -98,7 +99,9 @@ footer{
 	display: flex;
 	align-items: center;
 	padding: 0px;
-	background-image: url(images/rose1.jpg);
+	background-opacity: 1;
+	background-color: rgba(255, 228, 196, 0);
+	/*background-image: url(images/rose1.jpg);*/
 }
 
 .introduction-premières{
@@ -145,3 +148,11 @@ footer{
 	font-family: 'Cedarville Cursive', cursive;
 	margin-bottom: 30px;
 }
+
+@media (max-width: 991.99px) {
+	.card{
+		margin-bottom: 13PX;}
+	body{
+		background-size: cover;}}
+
+
