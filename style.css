@@ -145,3 +145,7 @@ footer{
 	font-family: 'Cedarville Cursive', cursive;
 	margin-bottom: 30px;
 }
+
+@media (max-width: 991.99px) {
+	.card{
+		margin-bottom: 13PX;}
